@@ -1,0 +1,158 @@
+*{
+ box-sizing: border-box;   
+}
+
+body{
+    margin: 0; 
+    display: flex;
+    justify-content: center; 
+    color: white;
+}
+
+.container{
+    width: 1400px;
+    min-height: 600px;
+}
+
+.container header{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 120px;
+    align-items: flex-start;
+    justify-items: flex-start;
+    font-size: 1.1rem;
+    background-color: rgba(255, 111, 0, 0.504);
+}
+
+ .container header nav ul{
+    list-style-type: none;
+    display: flex;
+    justify-content:space-around;
+    border: 2px solid black;
+    padding-top: 5px;
+    text-align: center;
+    
+}
+ .container header nav ul li{ 
+padding-right: 30px;
+border-right: 1.5px solid black;
+}
+
+
+
+a:hover {
+    background-color: black;
+}
+
+a{
+    text-decoration: none;
+    text-align: center;
+}
+.main{
+    background-color: brown;
+    width: 100%;
+    height: 90%;
+
+}
+
+.main .first-box {
+    width: 100%;
+    height: 40%;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+
+.first-image{
+    width: 400px;
+    height: 250px;
+    margin: 20px 30px;
+    border-radius: 5px;
+}
+.image {
+    width: 200px;
+    height: 150px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    margin-top: 30px;
+}
+
+.img-title{
+    display:block;
+    text-align: center;
+}
+
+.image-contact{
+clip-path: circle();
+
+}
+
+.main .boxes-container{
+    width:100%;
+    height: 50%;
+}
+.main .boxes-container .box-1{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.main .boxes-container .box-2{
+    display: flex;
+    justify-content: space-around;
+}
+
+.main .boxes-container .box-3{
+    display: flex;
+    justify-content: space-around;
+}
+
+footer{
+    background-color: darkgray;
+    width: 100%;
+    height: 20%;
+    text-align: center;
+}
+
+footer p{
+    padding-top: 20px;
+    font-size: 1.5rem;
+}
+
+.btn{
+    width: 10%;
+    height: 30%;
+    font-size: 1.1rem;
+}
+
+.btn-1{
+    width:30%;
+    height: 50px;
+    font-size: 1.1rem;
+}
+
+
+.socios{
+    width:50px;
+    height:50px;
+}
+
+footer ul{
+    list-style-type: none;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+
+}
+
+.fa-solid{
+    font-size: 4rem;
+    margin: 30px;
+
+}
+
+.sass{
+    padding-left: 110px;
+    font-weight: bold;
+}
