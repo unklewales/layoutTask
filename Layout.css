@@ -10,7 +10,7 @@ body{
 }
 
 .container{
-    width: 1400px;
+    min-width: 800px;
     min-height: 600px;
 }
 
@@ -28,29 +28,37 @@ body{
  .container header nav ul{
     list-style-type: none;
     display: flex;
-    justify-content:space-around;
+    justify-content:space-evenly;
     border: 2px solid black;
     padding-top: 5px;
     text-align: center;
     
 }
  .container header nav ul li{ 
-padding-right: 30px;
-border-right: 1.5px solid black;
+
+
+}
+
+.container header nav ul li a{
+ padding-left: 20px;
+ padding-right: 20px;
+ border-right: 1.5px solid black;
+ padding-top: 5px;
 }
 
 
-
-a:hover {
+.container header nav ul li a:hover {
     background-color: black;
+    color: antiquewhite;
 }
 
 a{
     text-decoration: none;
     text-align: center;
 }
+
 .main{
-    background-color: brown;
+    background-color: rgba(207, 21, 21, 0.642);
     width: 100%;
     height: 90%;
 
@@ -65,10 +73,13 @@ a{
 }
 
 .first-image{
-    width: 400px;
-    height: 250px;
+    width: 50%;
+    height: 350px;
     margin: 20px 30px;
     border-radius: 5px;
+}
+.main .first-box span{
+    width: 50%;
 }
 .image {
     width: 200px;
@@ -147,7 +158,7 @@ footer ul{
 }
 
 .fa-solid{
-    font-size: 4rem;
+    font-size: 2rem;
     margin: 30px;
 
 }
